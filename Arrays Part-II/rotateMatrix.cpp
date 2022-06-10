@@ -1,4 +1,5 @@
 #include <bits/stdc++.h> 
+using namespace std;
 void rotateM(vector<vector<int>> &matrix, int sr, int sc, int er, int ec){
     int prev = matrix[sr][sc];
     int curr;
